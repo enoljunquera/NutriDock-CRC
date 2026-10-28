@@ -26,3 +26,6 @@ The released table uses one row per compound (PubChem CID) and receptor. When mu
 The associated dataset is archived in Zenodo: https://doi.org/10.5281/zenodo.19555687. Use the DOI for the specific dataset version consulted when citing the molecular table.
 
 Please verify licenses and permission requirements before redistributing data.
+
+
+NutriDock-CRC: A reproducible cheminformatics framework for colorectal cancer risk prediction integrating molecular docking, CYP interactions, exposure data, and machine learning. Original source code released under the MIT License (https://opensource.org/license/mit/).
