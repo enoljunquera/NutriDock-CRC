@@ -1,0 +1,24 @@
+{
+  "input_file": "[local path omitted: dataset_baseline_alimentos.csv]",
+  "n_subjects": 111,
+  "n_features_food_level": 307,
+  "three_class_counts": {
+    "Pólipo": 66,
+    "Normal": 37,
+    "Neoplasia": 8
+  },
+  "binary_counts": {
+    "Altered": 74,
+    "Normal": 37
+  },
+  "missing_predictor_values": 0,
+  "master_seed": 42,
+  "repetitions": 20,
+  "outer_cv": "StratifiedKFold(n_splits=5, shuffle=True)",
+  "binary_threshold_calibration": "4-fold stratified OOF predictions within outer-training data only",
+  "specificity_target": 0.9,
+  "python_version": "3.9.16",
+  "pandas_version": "2.1.4",
+  "numpy_version": "1.26.4",
+  "sklearn_version": "1.4.2"
+}

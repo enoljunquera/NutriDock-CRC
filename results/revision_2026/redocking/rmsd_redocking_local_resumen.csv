@@ -1,0 +1,5 @@
+system,top_rmsd_A,top_affinity_kcal_mol,top_reference,best_rmsd_A,best_mode,best_affinity_kcal_mol,best_reference,top_pose_le_2A,any_pose_le_2A
+CYP1A1_4I8V_BHF,4.003666022415909,-15.0,crystal_BHF_B_602.pdb,0.45777989096445554,3,-14.0,crystal_BHF_B_602.pdb,False,True
+CYP1A2_2HI4_BHF,3.668424003119959,-14.8,crystal_BHF_A_800.pdb,1.0905194480919018,2,-14.4,crystal_BHF_A_800.pdb,False,True
+CYP2E1_3KOH_OIO,1.4977395189640503,-7.3,crystal_OIO_B_1.pdb,1.3229500872418927,3,-7.1,crystal_OIO_B_1.pdb,True,True
+CYP3A4_3NXU_RIT,5.842114846526043,-11.4,crystal_RIT_A_600.pdb,1.440839463646107,8,-10.6,crystal_RIT_A_600.pdb,False,True
