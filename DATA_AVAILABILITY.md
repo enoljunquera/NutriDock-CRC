@@ -1,7 +1,12 @@
+
 # Data availability
 
-This repository provides code, molecular descriptors and aggregate evaluation results. Participant-level dietary records, clinical diagnoses, intermediate combined matrices and individual prediction outputs are not part of this release. These data require appropriate research and ethical authorization.
+The processed datasets used in the predictive analyses, including pseudonymized subject-level dietary exposures, molecular features, combined feature matrices, diagnostic labels, and evaluation results, are available in Zenodo (version 2):
 
-Some scripts require locally available intermediate docking outputs, source molecular structures or access to controlled cohort data. The released aggregate results are provided for scientific inspection and do not alone reproduce all subject-level analyses.
+https://zenodo.org/records/23728824
 
-The redocking experiments assess structural pose recovery and must not be interpreted as measurements of enzyme kinetics, binding affinity or metabolism.
+The GitHub repository provides research scripts, molecular descriptors, and evaluation outputs. Some computational steps require intermediate docking files or molecular structures not included in the public release.
+
+The released subject-level data do not contain direct personal identifiers or raw clinical records. Data reuse must comply with the applicable ethical and privacy requirements.
+
+The redocking experiments assess structural pose recovery and should not be interpreted as direct measurements of enzyme kinetics, binding affinity, or metabolism.
