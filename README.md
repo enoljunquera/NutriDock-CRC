@@ -15,17 +15,20 @@ Diet, MolAgg and ProtAgg are assessed separately and in the Combined representat
 - `results/revision_2026/`: non-subject-level evaluation outputs, learning curves, statistical comparisons and redocking summaries.
 - `DATA_AVAILABILITY.md`: data access and privacy considerations.
 
-The code is retained as research scripts and is not a standalone, containerized replication package. Some analyses require authorized access to the cohort-level dietary and diagnostic tables, as well as intermediate molecular structures.
+
+The code is provided as research scripts rather than as a standalone, containerized replication package. The pseudonymized subject-level feature matrices and diagnostic labels used in the reported predictive analyses are available in the associated Zenodo dataset (version 2). Some analyses additionally require intermediate docking outputs or molecular structures not included in the public release.
 
 ## Molecular features
 
 The released table uses one row per compound (PubChem CID) and receptor. When multiple source records are available for a CID–receptor pair, numerical protein-interaction descriptors are summarized by their arithmetic mean. The four receptor identifiers are `CYP1A1_4I8V`, `CYP1A2_2HI4`, `CYP3A4_1TQN` and `CYP2E1_3KOH`.
 
+
 ## Data and citation
 
-The associated dataset is archived in Zenodo: https://doi.org/10.5281/zenodo.19555687. Use the DOI for the specific dataset version consulted when citing the molecular table.
+The processed datasets supporting the reported predictive analyses, including dietary exposure matrices, molecular descriptors, subject-level feature matrices, diagnostic labels, and evaluation results, are archived in Zenodo (version 2):
 
-Please verify licenses and permission requirements before redistributing data.
+https://zenodo.org/records/23728824
 
+Please cite the version-specific DOI displayed on the Zenodo record.
 
-NutriDock-CRC: A reproducible cheminformatics framework for colorectal cancer risk prediction integrating molecular docking, CYP interactions, exposure data, and machine learning. Original source code released under the MIT License (https://opensource.org/license/mit/).
+The source code is released under the MIT License. Data reuse and redistribution must comply with the applicable dataset license, research ethics approvals, and privacy requirements.
